@@ -1,0 +1,27 @@
+{
+  "name": "venusdevweb",
+  "version": "0.0.1",
+  "description": "None",
+  "keywords": [
+    "web"
+  ],
+  "homepage": "https://github.com/Brian3647/Venus-developement---WEB#readme",
+  "bugs": {
+    "url": "https://github.com/Brian3647/Venus-developement---WEB/issues"
+  },
+  "license": "MIT",
+  "author": "Venus developement team",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brian3647/Venus-developement---WEB.git"
+  },
+  "scripts": {
+    "test": "node .",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
