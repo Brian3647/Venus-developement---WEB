@@ -16,7 +16,7 @@ function get() {
       }
   }
 
-  return results;
+  return results.replace(' ', '_');
 }
 
 module.exports = get;
