@@ -1,0 +1,21 @@
+.faq {
+  text-decoration: initial;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+h1.faq {
+  font-size: 10em;
+}
+
+.answer {
+  font-size: 2em;
+}
+
+.question {
+  font-size: 3em;
+}
+
+a.faq-link {
+  color: rgb(255, 255, 0);
+}

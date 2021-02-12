@@ -1,28 +1,28 @@
 {
-  "name": "venusdevweb",
-  "version": "0.0.1",
-  "description": "None",
-  "keywords": [
-    "web"
-  ],
-  "homepage": "https://github.com/Brian3647/Venus-developement---WEB#readme",
-  "bugs": {
-    "url": "https://github.com/Brian3647/Venus-developement---WEB/issues"
+  "name": "venus-dev-web",
+  "version": "0.0.0",
+  "description": "Official web",
+  "main": "index.js",
+  "scripts": {
+    "test": "node .",
+    "buildtw": "npx tailwindcss-cli@latest build tailwind.css -o ./public/css/tw.css"
   },
-  "license": "MIT",
-  "author": "Venus developement team",
-  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Brian3647/Venus-developement---WEB.git"
   },
-  "scripts": {
-    "test": "node .",
-    "start": "node server.js"
+  "keywords": [
+    "web"
+  ],
+  "author": "Venus developement team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brian3647/Venus-developement---WEB/issues"
   },
+  "homepage": "https://github.com/Brian3647/Venus-developement---WEB#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "os": "^0.1.1",
-    "path": "^0.12.7"
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
   }
 }
