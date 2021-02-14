@@ -2,7 +2,8 @@ body {width: 100%;height: 100%;background-color: #a1c4fd;}
 .alt-buttons {
   color: white;
   font-size: 1.5em;
-  padding: 5px 5px 5px 5px;
+  padding-left: 5px;
+  padding-right: 10px;
   background-color: #FBAB7E;
   background-image: linear-gradient(62deg, #bb54ad 0%, #F7CE68 100%);
 }
